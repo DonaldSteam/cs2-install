@@ -1,10 +1,10 @@
 #!/bin/bash
-read -p "Введите имя пользователя от которого происходит установка: " INSTALL_USER
-read -p "Введите логин Steam: " USERNAME
-read -p "Введите название папки сервера: " SERVER_FOLDER_NAME
-read -p "Введите IP-адрес сервера: " SERVER_IP
-read -p "Введите порт сервера: " SERVER_PORT
-read -p "Введите число слотов: " SLOTS
+read -p "steam4" INSTALL_USER
+read -p "Vampx143" USERNAME
+read -p "csdm_cs2" SERVER_FOLDER_NAME
+read -p "89.23.113.11" SERVER_IP
+read -p "27015" SERVER_PORT
+read -p "20" SLOTS
 
 # Колдуем над пакетами
 apt update && apt upgrade -y
